@@ -21,10 +21,10 @@
       <p><a href="https://crocode-portfolio.surge.sh/">@Crocode</a></p>
       <div className="articleFooterImg">
         <ul>
-          <li><a>
+          <li><a href="https://github.com/CrocodileCode">
           <img src="./assets/github.png" alt="github">
         </a> </li>
-         <li><a>
+         <li><a href="https://www.instagram.com/aziz__saidi_">
           <img src="./assets/instagram.png" alt="instagram">
         </a> </li>
         </ul>
@@ -56,7 +56,7 @@
   <!-- Skills Section -->
    <!-- Section Information -->
 
-  <section>
+  <section className="mt-1">
     <h1>Skills</h1>
     <div className="skills-list">
       <ul className="skills-option">
@@ -84,6 +84,7 @@ header {
     border-radius: 15px;
     position: relative;
     width: 20rem;
+    height: 22rem;
     padding: 0.6rem;
     display: flex;
     border: 1px solid rgba(201, 199, 199, 0.679);
@@ -129,7 +130,7 @@ header .profile-detail span{
 
 /* Article */
 article{
-  border-radius: 15px;
+    border-radius: 15px;
     position: relative;
     width: 30rem;
     padding: 0.6rem;
@@ -194,10 +195,10 @@ article .articleFooter .articleFooterImg img{
 /* Section Info  */
 
 section{
-  border-radius: 15px;
+    border-radius: 15px;
     position: relative;
     width: 20rem;
-    margin-top: 3rem;
+    margin-top: -3rem;
     padding: 0.6rem;
     display: flex;
     border: 1px solid rgba(201, 199, 199, 0.679);
