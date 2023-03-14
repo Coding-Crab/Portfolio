@@ -6,9 +6,13 @@ body{
 .d-flex{
     display: flex;
     justify-content: space-between;
-    padding-right: 61px;
-
+    /* padding-right: 61px; */
 }
+
+.mt-1{
+    margin-top: 1rem;
+}
+
 
 .mt-1{
     margin-top: 1rem !important;
